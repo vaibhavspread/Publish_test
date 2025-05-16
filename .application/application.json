@@ -65,9 +65,7 @@
   "modifiedResources": {
     "isAllModified": false,
     "modifiedResourceIdentifiers": {
-      "context_config": [
-        "6826fd436080737ff7a75ab1_f029a694-9a2a-4643-a245-2f6c3991af2a"
-      ],
+      "context_config": [],
       "jslib_config": [],
       "jsobject_config": [],
       "query_config": []
@@ -76,9 +74,7 @@
       "actionCollectionList": [],
       "actionList": [],
       "customJSLibList": [],
-      "pageList": [
-        "Page1"
-      ]
+      "pageList": []
     }
   },
   "pageList": [
@@ -283,6 +279,64 @@
                   "verticalAlignment": "CENTER",
                   "widgetId": "4lh4g6xt7z",
                   "widgetName": "Table2"
+                },
+                {
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "animateLoading": true,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "bottomRow": 31.0,
+                  "boxShadow": "none",
+                  "defaultOptionValue": "GREEN",
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "accentColor"
+                    },
+                    {
+                      "key": "borderRadius"
+                    }
+                  ],
+                  "dynamicHeight": "FIXED",
+                  "dynamicPropertyPathList": [
+                    {
+                      "key": "sourceData"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "isFilterable": true,
+                  "isLoading": false,
+                  "isRequired": false,
+                  "isVisible": true,
+                  "key": "5kv1cxf3bm",
+                  "labelAlignment": "left",
+                  "labelPosition": "Top",
+                  "labelText": "Label",
+                  "labelTextSize": "0.875rem",
+                  "labelWidth": 5.0,
+                  "leftColumn": 0.0,
+                  "maxDynamicHeight": 9000.0,
+                  "minDynamicHeight": 4.0,
+                  "minWidth": 450.0,
+                  "mobileBottomRow": 31.0,
+                  "mobileLeftColumn": 0.0,
+                  "mobileRightColumn": 5.0,
+                  "mobileTopRow": 24.0,
+                  "needsErrorInfo": false,
+                  "optionLabel": "name",
+                  "optionValue": "code",
+                  "parentColumnSpace": 14.8125,
+                  "parentId": "0",
+                  "parentRowSpace": 10.0,
+                  "placeholderText": "Select option",
+                  "renderMode": "CANVAS",
+                  "responsiveBehavior": "fill",
+                  "rightColumn": 5.0,
+                  "serverSideFiltering": false,
+                  "sourceData": "[\n  {\n    \"name\": \"Blue\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"Green\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"Red\",\n    \"code\": \"RED\"\n  }\n]",
+                  "topRow": 24.0,
+                  "type": "SELECT_WIDGET",
+                  "version": 1.0,
+                  "widgetId": "86ctwa3kdy",
+                  "widgetName": "Select1"
                 }
               ],
               "containerStyle": "none",
